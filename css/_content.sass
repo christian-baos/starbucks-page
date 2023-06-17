@@ -1,0 +1,113 @@
+.content
+    position: relative
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    .textBox
+        position: relative
+        max-width: 600px
+
+        h2
+            color: #333
+            font-size: 4em
+            line-height: 1.4em
+            font-weight: 500
+
+            span
+                color: #017143
+                font-size: 1.2em
+                font-weight: 900
+
+        p
+            color: #333
+
+        a
+            display: inline-block
+            margin-top: 20px
+            padding: 8px 20px
+            background: #017143
+            color: #fff
+            border-radius: 40px
+            font-weight: 500
+            letter-spacing: 1px
+            text-decoration: none
+            &:hover
+                transform: scale(1.2)
+                transition: all .3s
+
+    .imgBox
+        width: 600px
+        display: flex
+        justify-content: flex-end
+        padding-right: 30px
+        margin-top: 40px
+
+        img
+            max-width: 340px
+
+.thumb
+    position: absolute
+    left: 50%
+    bottom: 20px
+    transform: translateX(-50%)
+    display: flex
+
+    li
+        list-style-type: none
+        display: inline-block
+        margin: 0 20px
+        cursor: pointer
+        transition: 0.4s
+        &:hover
+            transform: translateY(-15px)
+        img
+            max-width: 60px
+
+    .img-4
+        list-style-type: none
+        display: inline-block
+        margin: 0 10px
+        cursor: pointer
+        transition: 0.4s
+        &:hover
+            transform: translateY(-15px)
+        img
+            max-width: 48px
+            
+
+    .img-5
+        list-style-type: none
+        display: inline-block
+        margin: 0 10px
+        cursor: pointer
+        transition: 0.4s
+        &:hover
+            transform: translateY(-15px)
+        img
+            max-width: 65px
+            
+
+.sci
+    position: absolute
+    top: 50%
+    right: 30px
+    transform: translateY(-50%)
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    flex-direction: column
+
+    li
+        list-style: none
+
+        a
+            display: inline-block
+            margin: 5px 0
+            transform: scale(0.6)
+            filter: invert(1)
+            &:hover
+                transform: scale(0.9)
+                transition: all .3s
