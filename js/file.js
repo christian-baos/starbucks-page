@@ -3,16 +3,11 @@ function imgSlider(anything, newText) {
     var paragraph = document.getElementById("change_text");
 
     document.querySelector('.starbucks').src = anything;
-    
 
     paragraph.innerHTML = newText;
 
 
    
-    if (document.querySelector('.starbucks').src === "img/img4.png") {
-        var img = document.querySelector('.starbucks');
-        img.style.maxwidth = '600px';
-    }
 
     //document.getElementById('texto1').innerHTML = "B"
 }
